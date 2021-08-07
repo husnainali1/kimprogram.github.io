@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Kim-programmes-V2</title>
+</head>
+
+<body>
+
+    <!-- Navbar Code -->
+
+    <div class="back-black">
+
+        <div class="container">
+            <nav class="d-flex flex-row flex-lg-column navbar navbar-expand-lg py-3">
+
+                <div class="align-self-lg-end">
+                    <div class="py-3">
+                        <div class="d-flex ">
+
+                            <i class="nav-bar-icon clr-gry fab fa-facebook mx-2"></i>
+                            <i class="nav-bar-icon clr-gry fab fa-instagram mx-2"></i>
+                            <i class="nav-bar-icon clr-gry fab fa-twitter mx-2"></i>
+                            <i class="nav-bar-icon clr-gry fab fa-linkedin-in mx-2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler px-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="mx-1">
+                        <i class="toggler-icn fas fa-bars fa-2x ylw-clr"></i>
+                    </div>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-lg-between w-100" id="navbarSupportedContent">
+                    <div class="d-flex flex-column flex-lg-row w-100 justify-content-between align-items-lg-center">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item mx-1">
+                                <a class="nav-link text-uppercase text-white active" aria-current="page"
+                                    href="#">About</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a class="nav-link text-uppercase text-white" href="#">Programmes</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a class="nav-link text-uppercase text-white" href="#">Testimonials</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a class="nav-link text-uppercase text-white" href="#">Events</a>
+                            </li>
+
+                            <li class="nav-item mx-1">
+                                <a class="nav-link text-uppercase text-white" href="#">Blog</a>
+                            </li>
+                        </ul>
+
+                        <!-- <div class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row">
+                            <div class="membership-btn my-2 my-sm-2 my-md-2 mx-lg-2">
+                                <button type="button"
+                                    class="nav-btns-outilne btn border border-dark border-2 outline-clr text-black text-uppercase fw-bolder bg-ylw-clr login-btn">
+                                    Membership
+                                </button>
+                            </div>
+                            <div class="join-btn my-2 my-sm-2 my-md-2 mx-lg-2">
+                                <button type="button"
+                                    class="nav-btns-outilne btn border border-dark border-2 outline-clr text-black text-uppercase fw-bolder bg-ylw-clr same-size-btn-2 login-btn">
+                                    Join Today
+                                </button>
+                            </div>
+                            <div class="login-btn my-2 my-sm-2 my-md-2 ms-lg-2">
+                                <button type="button"
+                                    class="nav-btns-outilne btn border border-dark border-2 outline-clr text-black text-uppercase fw-bolder bg-ylw-clr same-size-btn-3 login-btn">
+                                    Login
+                                </button>
+                            </div>
+                        </div> -->
+
+                        <div
+                            class="px-1 d-flex flex-column nav-fix flex-sm-row justify-content-sm-between flex-md-row justify-content-md-evenly flex-md-row flex-lg-row">
+                            <div class="membership-btn my-2 my-sm-2 my-md-2 mx-lg-2">
+                                <button type="button"
+                                    class="nav-btns-outilne btn border rounded-0 border-dark border-2 outline-clr text-black text-uppercase bg-ylw-clr login-btn">
+                                    Membership
+                                </button>
+                            </div>
+                            <div class="join-btn my-2 my-sm-2 my-md-2 mx-lg-2">
+                                <button type="button"
+                                    class="nav-btns-outilne btn border rounded-0 border-dark border-2 outline-clr text-black text-uppercase bg-ylw-clr same-size-btn-2 login-btn">
+                                    Join Today
+                                </button>
+                            </div>
+                            <div class="login-btn my-2 my-sm-2 my-md-2 ms-lg-2">
+                                <button type="button"
+                                    class="nav-btns-outilne btn border rounded-0 border-dark border-2 outline-clr text-black text-uppercase bg-ylw-clr same-size-btn-3 login-btn">
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Background-Image-Section -->
+
+    <div class="bg-img">
+        <div class="d-flex flex-column justify-content-between h-100">
+            <div class="row align-self-center logo-img">
+                <img src="./images/logo-1.png" alt="" srcset="">
+            </div>
+
+            <div class="bg-img-down py-4">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center py-1">
+                        <div class="col-12 text-center col-md-8">
+                            <p class="h4 fw-bolder mb-0">Take Action, Call Us Today Ans Start Your Journey!</p>
+                        </div>
+                        <div class="col-12 text-center mt-3 col-md-4 mt-md-0">
+                            <button type="button"
+                                class="btn rounded-0 ylw-clr call-now-btn px-5 text-uppercase fw-bolder">Call
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Dynamite Programme Section -->
+
+
+    <div class="my-5">
+        <div class="container text-center">
+            <div class="">
+                <p class="h4">Taking Action With</p>
+            </div>
+            <div>
+                <p class="h2 ylw-clr">Dynamite Programmes</p>
+            </div>
+            <div>
+                <p class="h5 fw-normal my-4">Dynamite lifestyle commitsfully to wakening people up, one thought at a time.
+                    Mentorshipfor based on
+                    the science of success and Bob Proctors Method.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="container">
+            <div class="position-relative">
+                <img src="./images/image-overlay.png" class="img-fluid" alt="...">
+                <div class="back-black position-absolute px-4 py-4 overflow-div">
+                    <p class="h4 ylw-clr my-2 my-md-2">Thinking Into</p>
+                    <p class="h4 ylw-clr my-2 my-md-2">Results</p>
+                    <p class="h4 ylw-clr my-2 my-md-2">6 Months Group Mentorship</p>
+                    <div>
+                        <button type="button"
+                            class="call-now-btn btn rounded-0 ylw-border text-white px-1 py-1 mt-3 px-md-2">Find
+                            Out More</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="img-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-9 text-center col-md-6 text-md-start col-lg-6">
+                    <div class="row">
+                        <img src="./images/ignite.jpg" class="img-fluid" alt="" srcset="">
+                    </div>
+                    <div class="">
+                        <button type="button" class="btn px-1 find-out-btn rounded-0 text-black mt-3">Find
+                            Out More</button>
+                    </div>
+                </div>
+                <div class="col-9 mt-3 text-center col-md-6 mt-md-0 text-md-end col-lg-6">
+                    <div class="row">
+                        <img src="./images/lead.jpg" class="img-fluid" alt="" srcset="">
+
+                    </div>
+                    <div class="">
+                        <button type="button" class="btn px-1 find-out-btn rounded-0 text-black mt-3">Find Out
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Cards-Section-CSS -->
+    <div class="mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-9 my-3 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column position-relative">
+                        <div class="bg-img-3 ">
+                            <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+                        </div>
+
+                        <div class="mx-auto">
+                            <button type="button"
+                                class="btn learn-more-btn back-black px-3 rounded-0 ylw-clr px-md-5 py-md-2 text-uppercase position-absolute top-100 start-50 translate-middle">Learn
+                                More</button>
+                        </div>
+
+                        <div class="position-absolute p-abs-fix">
+                            <p class="h4 mb-0 text-center fw-bolder">Calm And Creative Collection</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-9 my-3 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column position-relative">
+                        <div class="bg-img-4">
+                            <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+                        </div>
+
+                        <div class="mx-auto">
+                            <button type="button"
+                                class="btn learn-more-btn back-black px-3 rounded-0 ylw-clr px-md-5 py-md-2 text-uppercase position-absolute top-100 start-50 translate-middle">Learn
+                                More</button>
+                        </div>
+
+                        <div class="position-absolute p-abs-fix" >
+                            <p class="h4 mb-0 text-center fw-bolder">Path to Agreement</p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-9 my-3 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column position-relative">
+                        <div>
+
+                            <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+                        </div>
+
+                        <div class="mx-auto">
+                            <button type="button"
+                                class="btn learn-more-btn back-black px-3 rounded-0 ylw-clr px-md-5 py-md-2 text-uppercase position-absolute top-100 start-50 translate-middle">Learn
+                                More</button>
+                        </div>
+
+                        <div class="position-absolute  p-abs-fix">
+                            <p class="h4 mb-0 text-center fw-bolder">Next One</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Form-Section -->
+
+    <div class="mt-5">
+        <div class="container">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-10 col-md-6 col-lg-6 bg-ylw-clr form-img">
+                    <div class="row align-items-center h-100">
+
+                        <p class="h2 text-center">Gps Image</p>
+
+                    </div>
+                </div>
+
+                <div class="col-10 mt-3 col-md-6 col-lg-6 mt-md-0">
+                    <p class="fw-bolder text-uppercase">Im Interested!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe beatae ipsa nobis quis ratione
+                        voluptatem doloremque exercitationem maiores.</p>
+                    <form action="">
+                        <input class="form-control rounded-0 input-clr py-2 my-3" type="text" placeholder="Name"
+                            aria-label="default input example">
+                        <input class="form-control rounded-0 input-clr py-2 my-3" type="text" placeholder="Email"
+                            aria-label="default input example">
+
+
+                        <select class="form-select rounded-0 select-input py-2 my-3" aria-label="Default select example"
+                            aria-placeholder="">
+                            <option class="input-clr" selected> Interseted In Course</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+
+                        <button type="button" class="btn text-white submit-btn rounded-0 bg-dark w-100">Submit</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Background-img-Section-2 -->
+
+
+    <div class="mt-5">
+        <div class="container bg-img-2">
+            <div class="row h-100">
+                <div class="col d-none d-md-block">
+
+                </div>
+                <div class="col d-none d-md-block ps-lg-5 align-self-center">
+                    <div class="p-3 text-end">
+                        <p class="h2 text-white text-uppercase">Interested in a</p>
+                        <p class="h1 ylw-clr text-uppercase">Private Event</p>
+                        <p class="text-white text-uppercase">Why not Book him for a keynote or Private event today</p>
+                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, eveniet?
+                            Fuga quia porro a praesentium ducimus vel, pariatur totam veritatis possimus excepturi quam
+                            ex molestias nihil distinctio quae voluptas optio. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Rerum, ipsa, id sint ipsam placeat
+                            officia illo neque magnam quas asperiores magni amet voluptatum omnis et error, ducimus
+                            laboriosam? Nemo, delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Praesentium error id, corporis incidunt adipisci doloremque voluptas suscipit autem a veniam
+                            iure ullam earum dolor, ut voluptatibus itaque iste laboriosam sapiente!</p>
+                        <div class="row justify-content-end">
+                            <div class="col-8">
+                                <button type="submit" class="btn fw-bolder text-uppercase contact-us-btn rounded-0 bg-ylw-clr w-100">Contact
+                                    Us</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container bg-dark d-md-none">
+            <div class="p-3">
+                <p class="h2 text-white">Interested in a</p>
+                <p class="h1 ylw-clr">Private Event</p>
+                <p class="text-white">Why not Book him for a keynote or Private event today</p>
+                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, eveniet?
+                    Fuga quia porro a praesentium ducimus vel, pariatur totam veritatis possimus excepturi quam
+                    ex molestias nihil distinctio quae voluptas optio. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Rerum, ipsa, id sint ipsam placeat
+                    officia illo neque magnam quas asperiores magni amet voluptatum omnis et error, ducimus
+                    laboriosam? Nemo, delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium error id, corporis incidunt adipisci doloremque voluptas suscipit autem a veniam
+                    iure ullam earum dolor, ut voluptatibus itaque iste laboriosam sapiente!</p>
+                <button type="submit" class="btn contact-us-btn-2 rounded-0 bg-white text-dark border-0 bg-dark">Contact
+                    Us</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Cards-Section-2 -->
+
+
+    <div class="mt-5">
+        <div class="container">
+
+            <div class="my-4 text-center">
+                <p class="h2">Explosive</p>
+                <p class="h3 ylw-clr">Events And WorkShops</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-9 my-3 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column position-relative">
+                        <div class="bg-img-0-1">
+                            <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+                        </div>
+
+                        <div class="mx-auto">
+                            <button type="button"
+                                class="btn work-btn rounded-0 back-black px-3 text-white text-uppercase px-md-5 py-md-2 position-absolute top-0 start-50 translate-middle">August
+                                28</button>
+                        </div>
+
+                        <div class="position-absolute text-center w-100 work-div-fix">
+                            <p class="mb-0 text-black text-uppercase fw-bolder">7 Levels Of Awareness</p>
+                            <p class="mb-0 text-white text-uppercase fw-bolder">Join Our Weekend Masterclass</p>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn join-here-btn rounded-0 text-uppercase bg-ylw-clr w-100 mt-3">Join
+                        Here</button>
+
+                </div>
+
+                <div class="col-9 my-3 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column position-relative">
+                        <div class="bg-img-0-2">
+                            <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+                        </div>
+
+                        <div class="mx-auto">
+                            <button type="button"
+                                class="btn work-btn rounded-0 back-black px-3 text-white text-uppercase px-md-5 py-md-2 position-absolute top-0 start-50 translate-middle">September
+                                28</button>
+                        </div>
+
+                        <div class="position-absolute text-center w-100 work-div-fix">
+                            <p class="mb-0 text-black text-uppercase fw-bolder">Our Mind Is Energy</p>
+                            <p class="mb-0 text-white text-uppercase fw-bolder">Join Our Masterclass</p>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn join-here-btn rounded-0 text-uppercase bg-ylw-clr w-100 mt-3">Join
+                        Here</button>
+
+                </div>
+
+                <div class="col-9 my-3 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column position-relative">
+                        <div class="bg-img-0-3">
+
+                            <img src="./images/5.png" class="img-fluid" alt="" srcset="">
+                        </div>
+
+                        <div class="mx-auto">
+                            <button type="button"
+                                class="btn work-btn rounded-0 back-black px-3 text-white text-uppercase px-md-5 py-md-2 position-absolute top-0 start-50 translate-middle">October
+                                2</button>
+                        </div>
+
+                        <div class="position-absolute text-center w-100 work-div-fix">
+                            <p class="mb-0 text-black text-uppercase fw-bolder">You are a creator</p>
+                            <p class="mb-0 text-white text-uppercase fw-bolder">Join Our Webinar Masterclass</p>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn join-here-btn rounded-0 text-uppercase bg-ylw-clr w-100 mt-3">Join
+                        Here</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- From-Line-Section -->
+
+
+    <div class="bg-dark mt-5 py-4 px-3">
+        <div class="container">
+            <div class="row flex-column flex-md-row align-items-md-center">
+                <div class="col-12 col-md-5 my-1">
+                    <p class="d-inline h3 ylw-clr">Join Our </p>
+                    <p class="d-inline h3 ylw-clr fw-bolder ">NewsLetter</p>
+                </div>
+                <div class="col-12 col-md-7">
+
+                    <div class="row flex-column flex-md-row">
+                        <div class="col-9 col-lg-4 my-2 col-5">
+                            <input type="text" class="form-control rounded-0 border-bottom-0 d-inline py-2" placeholder="Name">
+                        </div>
+                        <div class="col-9 col-lg-4 my-2 col-5">
+                            <input type="text" class="form-control rounded-0 border-bottom-0 d-inline py-2" placeholder="Email">
+                        </div>
+                        <div class="col-9 col-lg-4 my-2">
+                            <button type="submit" class="btn rounded-0 fw-bolder join-here-btn bg-ylw-clr py-2">Join
+                                Today</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Testimonial-Section -->
+
+    <div class="mt-5">
+        <div class="container">
+            <div class="row justify-content-center g-3">
+                <div class="col-10 col-sm-9 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column align-items-center img-back py-4 px-3 position-relative">
+                        <div class="img-div">
+
+                        </div>
+                        <div class="mt-3 text-center">
+                            <p class="h4">&#34; Thinking Into Results Changed My Life &#34;</p>
+                        </div>
+
+                        <div class="play-icon-div d-flex justify-content-center align-items-center position-absolute">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-10 col-sm-9 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column align-items-center img-back py-4 px-3 position-relative">
+                        <div class="img-div">
+
+                        </div>
+                        <div class="mt-3 text-center">
+                            <p class="h4">&#34; Thinking Into Results Changed My Life &#34;</p>
+                        </div>
+
+                        <div class="play-icon-div d-flex justify-content-center align-items-center position-absolute">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-9 col-md-6 col-lg-4">
+                    <div class="d-flex flex-column align-items-center img-back py-4 px-3 position-relative">
+                        <div class="img-div">
+
+                        </div>
+                        <div class="mt-3 text-center">
+                            <p class="h4">&#34; Thinking Into Results Changed My Life &#34;</p>
+                        </div>
+
+                        <div class="play-icon-div d-flex justify-content-center align-items-center position-absolute">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <button type="button" class="btn rounded-0 join-here-btn bg-ylw-clr fw-bolder">View More</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Navbar-Section -->
+
+    <div class="back-black mt-5 py-5">
+        <div class="container">
+            <div class="row flex-column flex-lg-row align-items-center">
+                <div class="col text-center text-lg-start">
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-uppercase ylw-clr h1">Get in <span class="text-white">touch</span></p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="clr-gry">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quae
+                                eos
+                                ab corrupti. Enim
+                                eius non a minima, recusandae at hic maxime omnis, praesentium quasi neque ab.
+                                Molestias,
+                                officia esse.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col text-center mt-3 text-lg-end">
+                    <div class="row">
+                        <div class="col">
+                            <p class="clr-gry">Website Last Update: 22/20/21</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="d-flex justify-content-center justify-content-lg-end">
+                                <i class="nav-bar-icon clr-gry fab fa-facebook mx-2"></i>
+                                <i class="nav-bar-icon clr-gry fab fa-instagram mx-2"></i>
+                                <i class="nav-bar-icon clr-gry fab fa-twitter mx-2"></i>
+                                <i class="nav-bar-icon clr-gry fab fa-linkedin-in ms-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="" class="text-decoration-none clr-gry">About</a>
+                                </li>
+                                <li class="list-inline-item"><a href=""
+                                        class="text-decoration-none clr-gry">Programmes</a></li>
+                                <li class="list-inline-item"><a href=""
+                                        class="text-decoration-none clr-gry">Testimonials</a></li>
+                                <li class="list-inline-item"><a href="" class="text-decoration-none clr-gry">Events</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="text-uppercase clr-gry">Privacy Policy / Cookie Policy</p>
+                    <p class="text-uppercase">Dynamite Lifestyle Ltd &#169; 2020. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

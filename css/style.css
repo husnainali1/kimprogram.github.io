@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+html,
+body {
+   text-align: left;
+   color: #000000;
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+   font-family: "Roboto", sans-serif;
+}
+
+.clr-gry {
+   color: #6e6e6e;
+}
+
+.bg-ylw-clr {
+   background-color: #f6bd4b;
+}
+
+.ylw-clr {
+   color: #f6bd4b;
+}
+
+.outline-clr {
+   outline: 2px solid #f6bd4b;
+}
+
+.back-black {
+   background-color: black;
+}
+
+.nav-bar-icon {
+   display: inline-block;
+   border-radius: 60px;
+   box-shadow: 0px 0px 2px #888;
+   padding: 0.5em 0.6em;
+}
+
+.toggler-icn {
+   font-size: 1.75rem;
+}
+
+.same-size-btn-2 {
+   padding: 6px 18px;
+}
+
+.same-size-btn-3 {
+   padding: 6px 40px;
+}
+
+.nav-btns-outilne:focus:not(:focus-visible) {
+   outline: 2px solid #f6bd4b !important;
+}
+
+.nav-btns-outilne:focus {
+   outline: 2px solid #f6bd4b !important;
+   box-shadow: none !important;
+}
+
+.form-control:focus {
+   /* border-color: black; */
+   box-shadow: none;
+}
+
+/* Background-Image-Section-Css */
+
+.bg-img {
+   height: 700px;
+   background: url("../images/bg-programme.png") left 88% bottom 20% / cover
+      no-repeat border-box;
+}
+
+.logo-img {
+   width: auto;
+}
+
+.bg-img-down {
+   background: url("../images/bg.png") left 88% bottom 20% / cover no-repeat
+      border-box;
+}
+
+.call-now-btn {
+   background-color: black;
+   border: 3px solid #f6bd4b;
+   outline: 3px solid black;
+   padding-left: 64px;
+   padding-right: 64px;
+}
+
+.call-now-btn:hover {
+   color: #f6bd4b;
+}
+
+.call-now-btn:focus:not(:focus-visible) {
+   outline: 3px solid black !important;
+}
+
+.call-now-btn:focus {
+   outline: 3px solid black !important;
+   box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+   .logo-img {
+      width: 250px;
+   }
+}
+
+@media (max-width: 575px) {
+   .bg-img {
+      background: url("../images/bg-programme.png") left 4% bottom 20% / cover
+         no-repeat border-box;
+   }
+   .logo-img {
+      width: 200px;
+   }
+}
+
+/* Dynamite-Programme-Section */
+
+.bg-img-dynamite {
+   height: 600px;
+
+   background: url("../images/image-overlay.png") left 88% bottom 20% / cover
+      no-repeat border-box;
+}
+
+.ylw-border {
+   border: 3px solid #f6bd4b;
+}
+
+.img-fluid {
+   width: 100%;
+}
+
+.bg-elite {
+   background: url("../images/image-overlay.png") left 88% bottom 20% / cover
+      no-repeat border-box;
+}
+
+.img-section {
+   margin-top: 144px;
+}
+
+.ylw-border-line {
+   border-bottom: 1px solid #f6bd4b;
+}
+
+.lead-div {
+   top: 16px;
+   right: 48px;
+}
+
+.find-out-btn {
+   background-color: #f6bd4b;
+   border: 1px solid black;
+   outline: 3px solid #f6bd4b;
+}
+
+.find-out-btn:focus:not(:focus-visible) {
+   outline: 3px solid #f6bd4b !important;
+}
+
+.find-out-btn:focus {
+   outline: 3px solid #f6bd4b !important;
+   box-shadow: none !important;
+}
+
+@media (max-width: 2000px) {
+   .overflow-div {
+      bottom: -100px;
+   }
+}
+
+@media (max-width: 991px) {
+   .overflow-div {
+      width: 50%;
+      bottom: -100px;
+   }
+}
+
+@media (max-width: 767px) {
+   .overflow-div {
+      position: absolute;
+      width: 50%;
+      bottom: -124px;
+   }
+}
+
+@media (max-width: 575px) {
+   .overflow-div {
+      position: static;
+      width: 100%;
+      bottom: -259px;
+   }
+   .img-section {
+      margin-top: 310px;
+   }
+}
+
+/* Cards-Section-Css */
+
+.bg-img-3 {
+   background: url("../images/image3.png") no-repeat border-box;
+   background-size: cover;
+}
+
+.bg-img-4 {
+   background: url("../images/image\ 4-1.png") no-repeat border-box;
+   background-size: cover;
+}
+
+/* learn-more-btn {
+
+} */
+
+.learn-more-btn:hover {
+   color: #f6bd4b;
+}
+
+.learn-more-btn:focus:not(:focus-visible) {
+   outline: none !important;
+}
+
+.learn-more-btn:focus {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+.p-abs-fix {
+   height: 28%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   bottom: 9%;
+}
+
+/* Form-Section-Css */
+
+.input-clr {
+   border-color: white;
+   background-color: #bababa;
+}
+
+.submit-btn:hover {
+   color: #f6bd4b;
+}
+
+.submit-btn:focus:not(:focus-visible) {
+   outline: none !important;
+}
+
+.submit-btn:focus {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+.select-input {
+   background-color: #bababa;
+   border-color: white;
+}
+
+.select-input:focus:not(:focus-visible) {
+   outline: none !important;
+}
+
+.select-input:focus {
+   border-color: black;
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+   .form-img {
+      height: 300px;
+   }
+}
+
+@media (max-width: 575px) {
+   .form-img {
+      height: 300px;
+   }
+}
+
+/* Background-Image-Section-2-Css */
+.bg-img-2 {
+   height: 600px;
+   background: url("../images/7.png") left 88% bottom 20% / cover no-repeat
+      border-box;
+}
+
+.contact-us-btn:focus:not(:focus-visible) {
+   outline: black !important;
+}
+
+.contact-us-btn:focus {
+   outline: black !important;
+   box-shadow: none !important;
+}
+
+.contact-us-btn-2:focus:not(:focus-visible) {
+   outline: black !important;
+}
+
+.contact-us-btn-2:focus {
+   outline: black !important;
+   box-shadow: none !important;
+}
+
+@media (max-width: 991px) {
+   .bg-img-2 {
+      height: auto;
+      background: url("../images/7.png") left 56% bottom 20% / cover no-repeat
+         border-box;
+   }
+}
+
+@media (max-width: 767px) {
+   .bg-img-2 {
+      height: 600px;
+      background: url("../images/7.png") left 6% bottom 20% / cover no-repeat
+         border-box;
+   }
+}
+
+@media (max-width: 575px) {
+   .bg-img-2 {
+      background: url("../images/7.png") left 15% bottom 20% / cover no-repeat
+         border-box;
+   }
+}
+
+/* Cards-section-2-Css */
+
+.join-here-btn {
+   color: white;
+}
+
+.work-btn:focus:not(:focus-visible) {
+   outline: black !important;
+}
+
+.work-btn:focus {
+   outline: black !important;
+   box-shadow: none !important;
+}
+
+.join-here-btn:focus:not(:focus-visible) {
+   outline: black !important;
+}
+
+.join-here-btn:focus {
+   outline: black !important;
+   box-shadow: none !important;
+}
+
+.work-div-fix {
+   height: 28%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   bottom: 9%;
+}
+
+.bg-img-0-1 {
+   background: url("../images/2.png") no-repeat border-box;
+   background-size: cover;
+}
+
+.bg-img-0-2 {
+   background: url("../images/0.1.png") no-repeat border-box;
+   background-size: cover;
+}
+
+.bg-img-0-3 {
+   background: url("../images/0.4.png") no-repeat border-box;
+   background-size: cover;
+}
+
+/* Testimonials-Section-Css */
+
+.img-back {
+   background-color: #f6bd4b;
+}
+
+.img-div {
+   width: 192px;
+   height: 192px;
+   border-radius: 50%;
+   background: url("../images/Vladimir_Vučković.jpg") left 6% bottom 20% / cover
+      no-repeat border-box;
+}
+
+.play-icon-div {
+   width: 48px;
+   height: 48px;
+   background-color: black;
+   color: white;
+   border-radius: 50%;
+   top: 3%;
+   right: 3%;
+}
